@@ -1,0 +1,218 @@
+/* Estilos para el menú de navegación */
+
+.navbar {
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: #a7a7a7; /* Color de fondo */
+  width: 100%; /* Ancho del menú */
+  height: 50px; /* Alto del menú */
+  float: left; /* Posicionamiento flotante */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 2;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover {
+    color: green;
+    text-decoration: underline;
+}
+ 
+/* Estilos para el contenido del encabezado */
+.header {
+    background-color: #e8f6f3;
+    padding: 150px;
+}
+.header-content {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    heigt: 100px
+}
+.header-txt {
+    max-width: 60%;
+}
+.header-txt h1 {
+    font-size: 50px;
+    color: #333;
+}
+.header-txt .descripcion {
+    font-size: 18px;
+    color: #666;
+}
+.header-txt .btn-1 {
+    background-color: #46a848;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.header-img img {
+    max-width: 110%;
+    height: auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.informacion {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.imagen-perfil {
+  width: 150px; /* Ajusta el tamaño de la imagen */
+  height: 150px; /* Ajusta el tamaño de la imagen */
+  border-radius: 50%; /* Hace que la imagen sea redonda */
+  margin: 20px auto; /* Ajusta el margen de la imagen */
+  border: 5px solid #fff; /* Agrega un borde blanco a la imagen */
+}
+
+
+
+/* Estilos para la sección de servicios */
+.services {
+    padding: 30px;
+}
+.services .titulo-seccion {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.services-content {
+    display: flex;
+    justify-content: space-around;
+}
+.services-1 {
+    text-align: center;
+}
+.services-1 img {
+    max-width: 500px;
+    height: auto;
+}
+.services-1 .subtitulo {
+    font-size: 34px;
+    margin: 10px 0;
+}
+.services-1 .descripcion {
+    font-size: 22px;
+}
+ 
+/* Estilos para la sección de productos */
+.products {
+    background-color: #e8f6f3;
+    padding: 150px;
+}
+.products-content {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    heigt: 100px
+}
+.products {
+    padding: 20px;
+}
+.products .titulo-seccion {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.products-content {
+    display: flex;
+    justify-content: space-around;
+}
+.products-1 {
+    text-align: center;
+}
+.products-1 img {
+    max-width: 100%;
+    height: auto;
+}
+.products-1 .subtitulo {
+    font-size: 34px;
+    margin: 10px 0;
+}
+.products-1 .precio {
+    font-size: 22px;
+    color: green;
+}
+.products-1 .btn-1 {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Estilos para la sección de contactos */
+
+.contact {
+    background-color: #e1daca;
+    padding:150px;
+}
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    heigt: 0px
+}
+.contact {
+    padding:0px;
+}
+.contact .titulo-seccion {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Estilos para la sección de piedepagina */
+.contenedor-pie {
+  background-color: #a7a7a7;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.redes-sociales {
+  margin-bottom: 20px;
+}
+
+.redes-sociales a {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.fa {
+  font-size: 24px;
+}
+
+.ubicacion {
+  margin-top: 20px;
+}
+
+.ubicacion p {
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 50px; /* Agrega un margen inferior de 50px al formulario */
+}
+
+footer {
+  margin-top: 50px; /* Agrega un margen superior de 50px al pie de página */
+}
